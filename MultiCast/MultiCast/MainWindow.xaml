@@ -1,0 +1,17 @@
+﻿<Window x:Class="MultiCast.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiCast"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="firstTextBox" HorizontalAlignment="Left" Height="179" Margin="89,92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="secondTextBox" HorizontalAlignment="Left" Height="179" Margin="339,92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="anotherTextBox" HorizontalAlignment="Left" Height="179" Margin="214,92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Click="ButtonClick" Margin="600,347,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Close" HorizontalAlignment="Left" Click="ButtonCloseClick" Margin="384,347,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
